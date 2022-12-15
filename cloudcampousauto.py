@@ -9,6 +9,7 @@
 from selenium import webdriver
 import xlwt
 from selenium.webdriver.common.by import By
+import time
 
 print("此脚本只是自动提交所有练习来解决问题，开发者不对任何使用造成的后果负责。注意url列表可能不适用于其他环境")
 idname=input("输入账号：")
@@ -16,7 +17,6 @@ password=input("输入密码：")
 workbook = xlwt.Workbook(encoding = 'utf-8')
 url_txt = open('url.txt','r')
 url_list = url_txt.read().split('\n')
-import time
 driver = webdriver.Chrome()
 time.sleep(8)
 driver.get("https://www.cloudcampus.com.cn/")
