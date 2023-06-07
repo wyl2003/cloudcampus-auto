@@ -1,10 +1,11 @@
-#cloudcampus自动挡 安德专版
-#初始代码来自https://www.toralen.com/2022/06/07/webdriver-x-python-cloudcampous%e8%87%aa%e5%8a%a8%e5%88%b7%e4%bb%bb%e5%8a%a1%e8%84%9a%e6%9c%ac/
+#cloudcampus自动完成练习
+#核心代码来自https://www.toralen.com/2022/06/07/webdriver-x-python-cloudcampous%e8%87%aa%e5%8a%a8%e5%88%b7%e4%bb%bb%e5%8a%a1%e8%84%9a%e6%9c%ac/
 """
-@Description: cloudcampousauto.py配合url.txt使用
+@Description: CCExercise.py 配合url.txt使用
 @Author: wyl2003
 @Date: 2022-12-14 20:52:45
 """
+
 #qs-startbutton h5p-joubelui-button h5p-button
 from selenium import webdriver
 import xlwt
